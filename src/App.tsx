@@ -1,4 +1,5 @@
 import { CRM } from "@/components/atomic-crm/root/CRM";
+import { MailCheck, MailCheckIcon } from "lucide-react";
 
 /**
  * Application entry point
@@ -28,11 +29,6 @@ import { CRM } from "@/components/atomic-crm/root/CRM";
 
 const App = () => (
     <CRM 
-        title="SIMiWEB CRM"
-        contactGender={[
-            { value: 'male', label: 'Мужской' },
-            { value: 'female', label: 'Женский' },
-        ]}
         companySectors={['Technology', 'Finance']}
         dealCategories={['Copywriting', 'Design']}
         dealPipelineStatuses={['won']}
