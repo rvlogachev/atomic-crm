@@ -25,6 +25,31 @@ import { CRM } from "@/components/atomic-crm/root/CRM";
  *    />
  * );
  */
-const App = () => <CRM />;
+
+const App = () => (
+    <CRM 
+        title="SIMiWEB CRM"
+        contactGender={[
+            { value: 'male', label: 'Мужской' },
+            { value: 'female', label: 'Женский' },
+        ]}
+        companySectors={['Technology', 'Finance']}
+        dealCategories={['Copywriting', 'Design']}
+        dealPipelineStatuses={['won']}
+        dealStages={[
+            { value: 'opportunity', label: 'Opportunity' },
+            { value: 'proposal-sent', label: 'Proposal Sent' },
+            { value: 'won', label: 'Won' },
+            { value: 'lost', label: 'Lost' },
+        ]}
+        noteStatuses={[
+            { value: 'cold', label: 'Cold', color: '#7dbde8' },
+            { value: 'warm', label: 'Warm', color: '#e8cb7d' },
+            { value: 'hot', label: 'Hot', color: '#e88b7d' },
+        ]}
+        taskTypes={['Call', 'Email', 'Meeting']}
+    disableTelemetry />
+);
 
 export default App;
+ 
