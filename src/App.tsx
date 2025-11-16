@@ -35,10 +35,8 @@ const App = () => (
         dealPipelineStatuses={['won']}
         dealStages={[
             { value: 'opportunity', label: 'Лид' },
-            { value: 'first-contact', label: 'Первичный' },
             { value: 'qualification', label: 'Квалификация' },
             { value: 'prepare', label: 'Предложение' },
-            { value: 'proposal-sent', label: 'Отправлено' },
             { value: 'agree-order', label: 'Переговоры' },
             { value: 'contract', label: 'Договор' },
             { value: 'project', label: 'Проект' },
