@@ -29,6 +29,7 @@ import { MailCheck, MailCheckIcon } from "lucide-react";
 
 const App = () => (
     <CRM 
+        title='SM CRM'
         companySectors={['Technology', 'Finance']}
         dealCategories={['Copywriting', 'Design']}
         dealPipelineStatuses={['won']}
