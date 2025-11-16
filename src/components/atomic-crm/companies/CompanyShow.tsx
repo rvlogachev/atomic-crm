@@ -217,10 +217,10 @@ const DealsIterator = () => {
                 <div className="font-medium">{deal.name}</div>
                 <div className="text-sm text-muted-foreground">
                   {findDealLabel(dealStages, deal.stage)},{" "}
-                  {deal.amount.toLocaleString("en-US", {
+                  {deal.amount.toLocaleString("ru-RU", {
                     notation: "compact",
                     style: "currency",
-                    currency: "USD",
+                    currency: "RUB",
                     currencyDisplay: "narrowSymbol",
                     minimumSignificantDigits: 3,
                   })}
