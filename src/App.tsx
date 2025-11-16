@@ -37,8 +37,8 @@ const App = () => (
             { value: 'opportunity', label: 'Лид' },
             { value: 'first-contact', label: 'Первичный' },
             { value: 'qualification', label: 'Квалификация' },
-            { value: 'prepare', label: 'Готовим КП' },
-            { value: 'proposal-sent', label: 'КП отправлено' },
+            { value: 'prepare', label: 'Предложение' },
+            { value: 'proposal-sent', label: 'Отправлено' },
             { value: 'agree-order', label: 'Переговоры' },
             { value: 'contract', label: 'Договор' },
             { value: 'contract', label: 'Проект' },
@@ -52,7 +52,7 @@ const App = () => (
             { value: 'good-client', label: 'Ключевой клиент', color: '#7de8b6ff' },
             { value: 'partner', label: 'Партнёр / интегратор', color: '#96e87dff' },
             { value: 'expert', label: 'Подрядчик / эксперт', color: '#d1e87dff' },
-            { value: 'warm', label: 'Тёплый', color: '#e8cb7d' },
+            { value: 'warm', label: 'Отложен', color: '#e8cb7d' },
             { value: 'hot', label: 'Горячий', color: '#e88b7d' },
         ]}
         taskTypes={['Звонок', 'Email', 'Онлайн-встреча', 'Очная встреча', 'Демонстрация продукта', 'Подготовка КП', 'Документы и договоры', 'Внутреннее обсуждение', 'Обучение клиента', 'Другое']}
