@@ -50,22 +50,22 @@ const Header = () => {
             <div>
               <nav className="flex">
                 <NavigationTab
-                  label="Dashboard"
+                  label="Статистика"
                   to="/"
                   isActive={currentPath === "/"}
                 />
                 <NavigationTab
-                  label="Contacts"
+                  label="Контакты"
                   to="/contacts"
                   isActive={currentPath === "/contacts"}
                 />
                 <NavigationTab
-                  label="Companies"
+                  label="Компании"
                   to="/companies"
                   isActive={currentPath === "/companies"}
                 />
                 <NavigationTab
-                  label="Deals"
+                  label="Сделки"
                   to="/deals"
                   isActive={currentPath === "/deals"}
                 />
