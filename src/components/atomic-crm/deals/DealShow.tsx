@@ -105,10 +105,10 @@ const DealShowContent = () => {
                 Budget
               </span>
               <span className="text-sm">
-                {record.amount.toLocaleString("en-US", {
+                {record.amount.toLocaleString("ru-RU", {
                   notation: "compact",
                   style: "currency",
-                  currency: "USD",
+                  currency: "RUB",
                   currencyDisplay: "narrowSymbol",
                   minimumSignificantDigits: 3,
                 })}
