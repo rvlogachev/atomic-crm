@@ -41,7 +41,7 @@ const App = () => (
             { value: 'proposal-sent', label: 'Отправлено' },
             { value: 'agree-order', label: 'Переговоры' },
             { value: 'contract', label: 'Договор' },
-            { value: 'contract', label: 'Проект' },
+            { value: 'project', label: 'Проект' },
             { value: 'won', label: 'Успешно' },
             { value: 'lost', label: 'Неуспешно' },
         ]}
