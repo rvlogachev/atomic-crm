@@ -180,6 +180,11 @@ const ContactMiscInputs = () => {
     <div className="flex flex-col gap-4">
       <h6 className="text-lg font-semibold">Misc</h6>
       <TextInput
+        source="telegram"
+        label="Telegram field"
+        helperText={false}
+      />
+      <TextInput
         source="background"
         label="Background info (bio, how you met, etc)"
         multiline
