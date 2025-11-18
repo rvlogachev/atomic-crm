@@ -42,6 +42,8 @@ const App = () => (
             { value: 'project', label: 'Проект' },
             { value: 'won', label: 'Успешно' },
             { value: 'lost', label: 'Неуспешно' },
+            { value: 'partners', label: 'Партнеры' },
+            { value: 'materials', label: 'Материалы' },
         ]}
         noteStatuses={[
             { value: 'cold', label: 'Лид', color: '#7dbde8' },
