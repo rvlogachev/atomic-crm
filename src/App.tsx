@@ -35,7 +35,7 @@ const App = () => (
         dealPipelineStatuses={['won']}
         dealStages={[
             { value: 'opportunity', label: 'Лид' },
-            { value: 'qualification', label: 'Квалификация' },
+            { value: 'qualification', label: 'Квалифицирован' },
             { value: 'prepare', label: 'Предложение' },
             { value: 'agree-order', label: 'Переговоры' },
             { value: 'contract', label: 'Договор' },
